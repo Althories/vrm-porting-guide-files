@@ -1,0 +1,48 @@
+HEAD:
+"VertexlitGeneric"
+{
+	"$basetexture" "model/[charac name]/[mat name]"
+	"$bumpmap" "model/[charac name]/bump_flat"
+    "$lightwarptexture" "model/[charac name]/basewarp"
+    "$alphatestreference" .3
+	"$alphatest" 1
+	"$nocull" 1
+	"$nodecal" 1
+}
+
+THE FACE:
+"VertexlitGeneric"
+{
+	"$basetexture" "model/[charac name]/[mat name]"
+	"$bumpmap" "model/[charac name]/Face_N"
+    "$lightwarptexture" "model/[charac name]/basewarp"
+    "$alphatestreference" .3
+	"$alphatest" 1
+	"$nocull" 1
+	"$nodecal" 1
+}
+
+BODY/CLOTHING:
+"VertexlitGeneric"
+{
+	"$basetexture" "model/[charac name]/[mat name]"
+	"$bumpmap" "model/[charac name]/bump_flat"
+    "$lightwarptexture" "model/[charac name]/basewarp"
+    "$alphatestreference" .3
+	"$alphatest" 1
+	"$nocull" 1
+	"$nodecal" 1
+}
+
+HAIR:
+"VertexlitGeneric"
+{
+	"$basetexture" "model/[charac name]/[mat name]"
+	"$bumpmap" "model/[charac name]/Hair_N"
+    "$lightwarptexture" "model/[charac name]/basewarp"
+    "$alphatestreference" .3
+	"$alphatest" 1
+	"$nocull" 1
+	"$nodecal" 1
+}
+
