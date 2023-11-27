@@ -83,7 +83,7 @@ Blink
 
 //Below is what you can paste into the .qc to enable face flexes. Note that you may have to 
 //change the order of the frames and such in case they don't match your model's.
-//only include the eye posing and blink params if you made them.
+//only include the eye posing and blink params (flexes 58-62) if you made them.
 
 	flexfile "model_name.vta" 
 	{
@@ -145,6 +145,7 @@ Blink
 		flex "Fcl_HA_Short" frame 55
 		flex "Fcl_HA_Short_Up" frame 56
 		flex "Fcl_HA_Short_Low" frame 57
+
 		flex "LookUp" frame 58
 		flex "LookDown" frame 59
 		flex "LookRight" frame 60
@@ -209,6 +210,7 @@ Blink
 	flexcontroller phoneme range 0 1 "Fcl_HA_Short"
 	flexcontroller phoneme range 0 1 "Fcl_HA_Short_Up"
 	flexcontroller phoneme range 0 1 "Fcl_HA_Short_Low"
+
 	flexcontroller phoneme range 0 1 "LookUp"
 	flexcontroller phoneme range 0 1 "LookDown"
 	flexcontroller phoneme range 0 1 "LookRight"
@@ -272,6 +274,7 @@ Blink
 	%Fcl_HA_Short = Fcl_HA_Short
 	%Fcl_HA_Short_Up = Fcl_HA_Short_Up
 	%Fcl_HA_Short_Low = Fcl_HA_Short_Low
+
 	%LookUp = LookUp
 	%LookDown = LookDown
 	%LookRight = LookRight
