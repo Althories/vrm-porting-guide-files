@@ -1,4 +1,4 @@
-# files-for-vrm-porting-guide
+# vroid-to-gmod-files
 Repo to download helpful files for Crowbar compilation and vmt editing. The associated Steam Guide can be found here: https://steamcommunity.com/sharedfiles/filedetails/?id=3079067248
 You can download all of these by clicking the green 'Code' button and selecting 'Download ZIP'.
 Troubleshooting Q&A for the guide can be found here: https://github.com/Althories/vrm-porting-guide-troubleshooting
