@@ -1,7 +1,10 @@
 # vroid-to-gmod-files
-Repo to download helpful files for Crowbar compilation and vmt editing. The associated Steam Guide can be found here: https://steamcommunity.com/sharedfiles/filedetails/?id=3079067248
-You can download all of these by clicking the green 'Code' button and selecting 'Download ZIP'.
+Repo to download files necessary for reference importing, Crowbar compilation, .vmt editing, etc. The associated Steam Guide can be found here: https://steamcommunity.com/sharedfiles/filedetails/?id=3079067248
+You can download all of this in one go by clicking the green 'Code' button and selecting 'Download ZIP'.
 Troubleshooting Q&A for the guide can be found here: https://github.com/Althories/vrm-porting-guide-troubleshooting
+
+Description of Contents:
+1) resources contains physconstraints.txt, RenameScript.py, and vmts.txt.
 
 1) base.vtf is used by the vmt files for the $lightwarptexture parameter. It's necessary to include this file if you want your model to have the same shading appearance that it does in Vroid Studio.
 2) samplea_physics.smd/samplec_physics.smd are physics models from Deadwater's Guide edited by myself to be closer to the default Vroid female/male bodies. Using one of these smds instead of the one provided in Deadwater's guide reduces the overall time needed to edit the physics smd.
