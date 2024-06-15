@@ -35,7 +35,7 @@ $ikautoplaylock "rfoot" 0.5 0.1
 $ikautoplaylock "lfoot" 0.5 0.1
 
 //Rename reference_female to reference_male or f to m if you're using male pm/npc animation
-$sequence reference "anims/reference_male" fps 1
+$sequence reference "anims/reference_female" fps 1
 
 $animation a_proportions "anims/proportions" subtract reference 0
 
