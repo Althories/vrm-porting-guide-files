@@ -1,0 +1,61 @@
+This file is a summarized version of the entire mainline process, mainly intended for those who are doing this process multiple times or have extensive program experience.
+
+VROID STUDIO part 0
+
+1. Alter skin mask
+2. Export from Vroid studio
+
+BLENDER part 1
+
+1. Delete all scene items
+2. Import vrm
+3. Delete all unnecessary colliders and extra collection
+4. Unpack resources and organize textures, rename materials
+5. Scripting → Import bone and shape key rename script, select face and run
+6. Layout → Select skeleton, VRM to ValveBiped, RENAME
+7. Import size reference .smd and scale model, delete male_07 collection
+8. Select all → Apply all transforms
+9. Determine what parts of the mesh will be joined together, rename mesh
+10. Go to Edit, select all, then select Mesh/Weights/Limit Total and enter 3 in the options at the bottom left.
+11. Scene → Set export path, Scene export model
+
+2.7 BLENDER part 2
+
+1. Open proportion trick script file
+2. Import model (make new armature, then append)
+3. Rename skeleton to gg w/ only skeleton selected
+4. Run script w/only skeleton selected
+5. Mult select black then green bone, copy constraints to selected bones
+6. Select all bones, Pose → apply pose as rest pose
+7. Select all bones, Clear pose constraints
+8. Switch to edit mode, view to right, apply foot rotations
+9. Switch to object mode, first view
+10. Select only skeleton, run proportion trick 2
+11. Select mesh, Ctrl+L and hit modifiers
+12. Select export path, scene export
+
+QC/Crowbar part 3
+
+1. Edit it where necessary
+2. Compile 
+3. Paste models folder into directory
+4. Rename folder inside materials
+5. Edit lua file
+
+VTFEdit part 4
+
+1. Tools → convert folder
+2. Select input as textures, output into models/modelname folder
+3. Make sure it's set to png to VTF, Recursive and Create VMT checked, convert
+4. Delete unused vmt files
+5. Edit all other vmt files
+
+Viewmodel Arms part 5
+
+1. New Blender Scene (delete everything inside)
+2. Import finished model .dmx
+3. Go to edit mode and toggle X-ray
+4. Delete parts of the viewmodel arms until satisfied
+5. Rename mesh and export
+6. Compile carms, put results into models
+7. Uncomment carms lua line
